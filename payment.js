@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         orderId: orderId,
                         excludeService:["sbp"],
                         successUrl: "https://fnvsk.pro/success",
-                        failUrl: "ttps://fnvsk.pro/cancel"
+                        failUrl: "ttps://fnvsk.pro/cancel",
                         
                     };
 
@@ -174,12 +174,12 @@ document.addEventListener('DOMContentLoaded', function () {
                             body: new URLSearchParams({
                                 'payment_method_types[]': 'card',
                                 'line_items[0][price_data][currency]': 'usd',
-                                'line_items[0][price_data][product_data][name]': 'Crypto Purchase',
+    
                                 'line_items[0][price_data][unit_amount]': value,
                                 'line_items[0][quantity]': '1',
                                 'mode': 'payment',
-                                'success_url': 'https://fnvsk.pro/fail',
-                                'cancel_url': 'https://fnvsk.pro/success',
+                                'success_url': 'https://fnvsk.pro/success',
+                                'cancel_url': 'https://fnvsk.pro/cancel',
                                 'customer_email': email.value
                             })
                         });
