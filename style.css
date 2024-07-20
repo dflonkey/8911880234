@@ -1070,7 +1070,7 @@ body.modal{
 
 @media screen and (min-width:1545px){
   .modal-content{
-    top:15%;
+    top:0%;
 
   }
   }
