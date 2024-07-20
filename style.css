@@ -1027,7 +1027,7 @@ body.modal{
 
 .modal-content {
   position: absolute;
-  top: 15%;
+  top: 5%;
   color:#fff;
   background-color: var(--card-color);
   border-radius: 15px;
