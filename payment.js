@@ -76,7 +76,9 @@ document.addEventListener('DOMContentLoaded', function () {
                         shopId: "0ffdc84f-ea2d-4b75-8e4b-5ab26e6e8b0c",
                         orderId: orderId,
                         excludeService:["sbp"],
-                        comment:'test'
+                        successUrl: "https://fnvsk.pro/success",
+                        failUrl: "ttps://fnvsk.pro/cancel"
+                        
                     };
 
                     const signatureArrayBuffer = await crypto.subtle.sign(
