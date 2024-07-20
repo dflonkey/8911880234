@@ -174,7 +174,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             body: new URLSearchParams({
                                 'payment_method_types[]': 'card',
                                 'line_items[0][price_data][currency]': 'usd',
-    
+                                'line_items[0][price_data][product_data][name]': 'Stripe Purchase',
                                 'line_items[0][price_data][unit_amount]': value,
                                 'line_items[0][quantity]': '1',
                                 'mode': 'payment',
