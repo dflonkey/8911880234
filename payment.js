@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         orderId: orderId,
                         excludeService:["sbp"],
                         successUrl: "https://fnvsk.pro/success",
-                        failUrl: "ttps://fnvsk.pro/cancel",
+                        failUrl: "https://fnvsk.pro/cancel",
                         
                     };
 
